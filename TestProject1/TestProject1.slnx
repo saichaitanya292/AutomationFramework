@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Automation.Common/Automation.Common.csproj" Id="b634216e-6863-4a67-bf13-67dae2fe381e" />
+  <Project Path="../TestProject2/TestProject2.csproj" Id="3d51e2be-1276-4442-8d38-f7e7537eba18" />
+  <Project Path="TestProject1.csproj" />
+</Solution>
