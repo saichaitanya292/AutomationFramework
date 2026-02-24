@@ -52,7 +52,8 @@ Run the tests:
 
 * Click **Test** (top menu)
 * Open **Test Explorer**
-* Click **Run All**
+* First  **Run CreateNewUserAndVerifyLogin**
+* After that run remaining test case
 
 ---
 
