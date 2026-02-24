@@ -1,55 +1,71 @@
 
-# ▶️ How to Run Selenium Tests (TestProject2)
 
-### Option 1 – From Visual Studio
+# 🚀 How to Run the Project (Using Visual Studio)
 
-1. Open `AutomationFramework.sln`
-2. Set `TestProject2` as Startup Project
-3. Open Test Explorer
-4. Click **Run All**
+## Step 1
 
----
+clone the project
 
+## Step 2
 
-# ▶️ How to Run Playwright Tests (TestProject1)
+Open the downloaded project folder.
 
-### First time setup (VERY IMPORTANT)
-
-Install Playwright browsers:
-
-```bash
-pwsh bin/Debug/net8.0/playwright.ps1 install
-```
-
-Or:
-
-```bash
-dotnet playwright install
-```
+* Go to **TestProject1**
+* Double-click **TestProject.slnx**
+* The solution will open in **Visual Studio**
 
 ---
 
-### Run tests
+## Step 3
 
-```bash
-dotnet test TestProject1
-```
+In **Solution Explorer**:
 
----
-
-# 📊 Extent Reports
-
-After execution, reports are generated inside:
-
-```
-TestResults/ExtentReport.html
-```
-
-Open the file in browser to view:
-
-* Step-wise logs
-* Screenshots after every step
-* Pass/Fail status
+* Right-click on the **Solution**
 
 ---
 
+## Step 4
+
+Click:
+
+```
+Restore NuGet Packages
+```
+
+Wait until the restore process completes successfully.
+
+---
+
+## Step 5
+
+Build the project:
+
+* Click **Build** (top menu)
+* Click **Build Solution**
+* Ensure there are no errors
+
+---
+
+## Step 6
+
+Run the tests:
+
+* Click **Test** (top menu)
+* Open **Test Explorer**
+* Click **Run All**
+
+---
+
+## 📊 View Extent Report
+
+After test execution, navigate to:
+
+```
+bin/Debug/net6.0/ExtentReport.html
+```
+
+Or check inside the `Reports` folder if configured.
+
+---
+
+✅ That’s it. The project should now run successfully and generate the Extent Report.
