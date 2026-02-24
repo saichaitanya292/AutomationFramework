@@ -68,4 +68,3 @@ TestProject2/bin/Debug/net8.0/TestResults/ExtentReport.html
 TestProject1/bin/Debug/net8.0/TestResults/ExtentReport.html
 ```
 
-✅ That’s it. The project should now run successfully and generate the Extent Report.
