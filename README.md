@@ -62,11 +62,10 @@ Run the tests:
 After test execution, navigate to:
 
 ```
-bin/Debug/net6.0/ExtentReport.html
+TestProject2/bin/Debug/net8.0/TestResults/ExtentReport.html
 ```
-
-Or check inside the `Reports` folder if configured.
-
----
+```
+TestProject1/bin/Debug/net8.0/TestResults/ExtentReport.html
+```
 
 ✅ That’s it. The project should now run successfully and generate the Extent Report.
